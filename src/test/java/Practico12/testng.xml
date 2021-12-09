@@ -1,0 +1,20 @@
+<suite name="Practico 12 - Test">
+    <test name="Ejercicios de TestNg">
+
+        <parameter name="tagName" value="h2"></parameter>
+        <parameter name="username" value="testingSelenium"></parameter>
+        <parameter name="password" value="elkame10"></parameter>
+
+        <groups>
+            <run>
+                <include name="loginTest"></include>
+                <!-- <include name="registrationTest"></include> -->
+            </run>
+        </groups>
+
+        <classes>
+        <!--<class name="Practico12.SpotifyTestNg"></class>-->
+        <class name="Practico12.TestNgAnotations"></class>
+        </classes>
+    </test>
+</suite>
